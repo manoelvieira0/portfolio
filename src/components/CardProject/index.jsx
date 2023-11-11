@@ -33,7 +33,7 @@ export function CardProject({ }) {
         </div>
         <span>Projeto Frontend de uma rede social utilizando React.</span>
         <div className={styles.link}>
-          <a href="https://github.com/manoelvieira0/ignite-feed-ts">Acessar</a>
+          <a href="https://github.com/manoelvieira0/ignite-feed-ts" target='_blank'>Acessar</a>
         </div>
       </div>
       <div className={styles.cardProject}>

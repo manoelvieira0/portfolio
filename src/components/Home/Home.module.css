@@ -60,6 +60,11 @@
     font-size: 2rem;
   }
 
+  .info h2 span {
+    display: block;
+    margin-top: 0.5rem;
+  }
+
   .info p {
     font-size: 1.2rem;
   }
