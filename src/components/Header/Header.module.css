@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-top: 3rem;
+  }
+}
+
+.header h2 {
+  color: var(--gray-100);
+  font-size: 2.5rem;
+}
+
+.link {
+  visibility: visible;
+}
+
+.link nav {
+  display: block;
+}
+
+.link ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.header a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--gray-200);
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: color 0.2s;
+}
+
+.header a:hover {
+  color: var(--purple-300);
+}
+
+@media (max-width: 768px) {
+  .link {
+    display: none; /* Oculta o menu em telas menores */
+  }
+
+  .link nav {
+    display: none; /* Certifique-se de ocultar a navegação para telas menores */
+  }
+
+  .header {
+    flex-direction: column; /* Altera a direção do flex container para empilhar verticalmente em telas menores */
+    align-items: flex-start;
+  }
+}

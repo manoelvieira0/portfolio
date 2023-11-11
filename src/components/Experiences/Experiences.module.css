@@ -1,0 +1,62 @@
+.experience {
+  padding-top: 10rem;
+}
+
+.experience h3 {
+  font-size: 2.5rem;
+  color: var(--gray-300);
+  text-align: srart;
+}
+
+.experience p {
+  font-size: 2.5rem;
+  color: var(--gray-100);
+}
+
+.experiences {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 5rem;
+}
+
+.experiences section {
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+
+  border-radius: 8px;
+}
+
+.experiences section h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--gray-100);
+}
+
+.experiences section h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--gray-200);
+}
+
+.experiences section span {
+  font-size: 1.4rem;
+  color: var(--gray-100);
+
+  background: var(--purple-500);
+  border-radius: 8px;
+  
+  padding: 0.2rem 0.5rem;
+}
+
+.experiences section p {
+  font-size: 1.4rem;
+  color: var(--gray-200);
+
+  margin-top: 1rem;
+}
+

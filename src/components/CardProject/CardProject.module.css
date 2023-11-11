@@ -1,0 +1,92 @@
+.listCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.cardProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--gray-500);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.cardProject img {
+  width: 30rem;
+  height: 18rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cardProject h2 {
+  font-size: 1.8rem;
+  color: var(--gray-200);
+  margin-top: 1rem;
+}
+
+.cardProject span {
+  font-size: 1.4rem;
+  color: var(--gray-300);
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  gap: 0.5rem;
+  flex-wrap: wrap; 
+  margin: 0.5rem 0;
+}
+
+.tags h5 {
+  font-size: 1.3rem;
+  background: var(--purple-300);
+  border-radius: 8px;
+  padding: 0 0.5rem;
+  color: var(--gray-100);
+  font-weight: 400;
+}
+
+.link {
+  margin-top: 1rem;
+}
+
+.cardProject a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  background: var(--gray-600);
+  color: var(--gray-100);
+  padding: 0 1rem; 
+  border-radius: 8px;
+  font-weight: 600;
+
+  transition: background 0.2s;
+}
+
+.cardProject a:hover {
+  background: var(--purple-500);
+  color: var(--gray-100);
+}
+
+@media (max-width: 768px) {
+  .listCard {
+    grid-template-columns: 1fr; /* Uma coluna em telas menores */
+    gap: 1rem;
+  }
+
+  .cardProject {
+    margin-bottom: 2rem; /* Adiciona espaço entre os cartões */
+  }
+
+  .tags h5 {
+    font-size: 1.1rem; /* Reduz o tamanho da fonte das tags */
+  }
+
+  .cardProject a {
+    font-size: 1.3rem; /* Reduz o tamanho da fonte do link */
+  }
+}

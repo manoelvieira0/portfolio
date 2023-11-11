@@ -1,0 +1,12 @@
+.skillcard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.skillcard p {
+  color: var(--gray-100);
+  font-size: 1.4rem;
+  font-weight: 500;
+}

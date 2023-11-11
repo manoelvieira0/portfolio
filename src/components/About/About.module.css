@@ -1,0 +1,29 @@
+.about {
+  margin-top: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.paragraph {
+  font-size: 2rem;
+  text-align: justify; 
+  color: var(--gray-300);
+}
+
+.paragraph span {
+  color: var(--gray-100);
+  font-size: 2rem;
+}

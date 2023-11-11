@@ -1,0 +1,72 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.contact h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.contact span {
+  color: var(--gray-300);
+  font-weight: 400;
+}
+
+.contact h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--gray-300);
+  font-weight: 400;
+}
+
+.pdf {
+  margin-top: 2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--gray-300);
+  background: transparent;
+  font-weight: 400;
+  border: 1px solid var(--gray-300);
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+
+  transition: all 0.3s ease;
+}
+
+.pdf:hover {
+  color: var(--gray-100);
+  font-weight: 600;
+}
+
+.icon {
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.icon svg {
+  color: var(--gray-300);
+}
+
+.icon svg:hover {
+  color: var(--gray-100);
+  cursor: pointer;
+}
+
+.email {
+  text-decoration: none;
+  margin-top: 2rem;
+  color: var(--gray-300);
+  font-size: 1.4rem;
+}
+
+.email:hover {
+  color: var(--gray-100);
+}

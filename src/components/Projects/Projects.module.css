@@ -1,0 +1,17 @@
+.project {
+  padding-top: 10rem;
+}
+
+.project h3, p {
+  display: inline;
+}
+
+.project h3 {
+  font-size: 2.5rem;
+  color: var(--gray-100);
+}
+
+.project p {
+  font-size: 2.5rem;
+  color: var(--gray-300);
+}
