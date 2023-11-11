@@ -3,6 +3,8 @@ import igniteTeam from '../../images/ignite-feed.png'
 import todo from '../../images/todo.png'
 import crud from '../../images/crud.png';
 import javato from '../../images/javato.png'
+import { GithubLogo } from '@phosphor-icons/react';
+import { Desktop } from '@phosphor-icons/react';
 
 export function CardProject({ }) {
   return (
@@ -20,6 +22,7 @@ export function CardProject({ }) {
         <span>Aplicação em React de controle de tarefas no estilo to-do list.</span>
         <div className={styles.link}>
           <a href="https://todolistmanoelv.netlify.app" target='_blank'>Acessar</a>
+          <Desktop />
         </div>
       </div>
       <div className={styles.cardProject}>
@@ -34,6 +37,7 @@ export function CardProject({ }) {
         <span>Projeto Frontend de uma rede social utilizando React.</span>
         <div className={styles.link}>
           <a href="https://github.com/manoelvieira0/ignite-feed-ts" target='_blank'>Acessar</a>
+          <GithubLogo />
         </div>
       </div>
       <div className={styles.cardProject}>
@@ -52,6 +56,7 @@ export function CardProject({ }) {
         <span>CRUD produzido com React, NodeJS e MySQL</span>
         <div className={styles.link}>
           <a href="https://github.com/manoelvieira0/crud" target='_blank'>Acessar</a>
+          <GithubLogo />
         </div>
       </div>
       <div className={styles.cardProject}>
@@ -64,6 +69,7 @@ export function CardProject({ }) {
         <span>Back-end de uma aplicação To-Do-List em Java, utilizando Spring Boot, implementação de autenticação, Validações de rotas e deploy.</span>
         <div className={styles.link}>
           <a href="https://github.com/manoelvieira0/todolist" target='_blank'>Acessar</a>
+          <GithubLogo />
         </div>
       </div>
     </div>
