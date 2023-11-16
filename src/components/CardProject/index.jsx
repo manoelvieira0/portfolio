@@ -3,6 +3,7 @@ import igniteTeam from '../../images/ignite-feed.png'
 import todo from '../../images/todo.png'
 import crud from '../../images/crud.png';
 import javato from '../../images/javato.png'
+import event from '../../images/event.png'
 import { GithubLogo } from '@phosphor-icons/react';
 import { Desktop } from '@phosphor-icons/react';
 
@@ -69,6 +70,19 @@ export function CardProject({ }) {
         <span>Back-end de uma aplicação To-Do-List em Java, utilizando Spring Boot, implementação de autenticação, Validações de rotas e deploy.</span>
         <div className={styles.link}>
           <a href="https://github.com/manoelvieira0/todolist" target='_blank'>Acessar</a>
+          <GithubLogo />
+        </div>
+      </div>
+      <div className={styles.cardProject}>
+        <img src={event} />
+        <h2>Aplicação em React Native para o gerenciamente de pessoas em um evento</h2>
+        <div className={styles.tags}>
+          <h5>React Native</h5>
+          <h5>Typescript</h5>
+        </div>
+        <span>Aplicação em React Native para o gerenciamente de pessoas em um evento. O usuário pode adicionar e remover pessoas.</span>
+        <div className={styles.link}>
+          <a href="https://github.com/manoelvieira0/event-app" target='_blank'>Acessar</a>
           <GithubLogo />
         </div>
       </div>
